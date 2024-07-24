@@ -6,6 +6,7 @@ import './index.scss';
 import { PostList } from './pages/PostsList';
 import { CommentsList } from './pages/CommentsList';
 import { Profile } from './pages/Profile';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/employees" element={<Employees />} />
         <Route path="/profile" element={<Profile />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
