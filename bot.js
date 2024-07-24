@@ -1,4 +1,5 @@
-import TelegramBot from 'node-telegram-bot-api';
+// eslint-disable-next-line no-undef
+const TelegramBot = require('node-telegram-bot-api');
 
 // Замените 'YOUR_TELEGRAM_BOT_TOKEN' на токен вашего бота
 const token = '7389501710:AAFJhZRg2-rp25ewRwFZr3sc9mdeMUuPL5g';
