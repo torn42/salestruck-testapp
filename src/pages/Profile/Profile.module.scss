@@ -1,0 +1,21 @@
+.profile {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-around;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+
+    img {
+      width: 400px;
+      height: 400px;
+      margin-bottom: 50px;
+      background-color: #f4d2ff;;
+    }
+  }
+
+  &__right {
+
+  }
+}

@@ -1,0 +1,70 @@
+.card {
+  max-width: 350px;
+  max-height: 630px;
+  background-color: rgba(239, 126, 119, 0.73);
+  padding: 10px;
+  margin-bottom: 5px;
+  color: #fffadb;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    padding: 0;
+    text-wrap: nowrap;
+
+    &-left {
+      text-align: start;
+
+    }
+
+    &-right {
+      text-align: end;
+    }
+  }
+
+  &__bottom {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-company {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+
+      &-info {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        div {
+          margin-bottom: 10px;
+        }
+      }
+
+      h3 {
+        font-size: 30px;
+        margin-bottom: 15px;
+      }
+    }
+
+    img {
+      width: 280px;
+      height: 280px;
+      background-color: #f4d2ff;
+      margin: auto auto 10px;
+
+    }
+
+    h1 {
+      margin: 5px 0;
+    }
+
+    h3 {
+      font-weight: 600;
+    }
+  }
+}

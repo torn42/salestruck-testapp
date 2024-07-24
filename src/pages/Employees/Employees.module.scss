@@ -1,0 +1,27 @@
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.employees {
+  display: grid;
+  margin-left: 2%;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+}
+
+@media (max-width: 1050px) {
+  .employees {
+    margin-left: 8%;
+    margin-right: 8%;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 825px) {
+  .employees {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
